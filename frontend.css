@@ -1,0 +1,1079 @@
+.parent{
+width: 100%;
+height: 100%;
+}
+.first{
+background-color: rgb(83, 23, 8);
+width: 100%;
+height: 120px;
+}
+.second{
+    background-color: rgb(248, 82, 17);
+    width: 100%;
+    height: 15px;
+}
+.third{
+    display: flex;
+    background-color: rgb(34, 32, 32);
+    width: 100%;
+    height: 4000px;
+}
+
+
+.FRONT{
+    color: white;
+    font-size: 40px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    top: 40px;
+}
+.MASTER{
+color: rgb(247, 3, 3);
+font-size: 90px;
+font-family:Brush Script MT ;
+position: absolute;
+top: -25px;
+left: 190px;
+}
+.link{
+display: flex;
+list-style-type: none;
+justify-content: right;
+text-decoration: none;
+color: white;
+position: absolute;
+top: 70px;
+left: 60%;
+}
+.link li {
+    color: white;
+    text-decoration: none;
+    
+    }
+    .link li a {
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        
+        }
+        .link li a :hover{
+            font-size: xx-large;
+        }
+.button{
+color: rgb(248, 240, 240); 
+border-radius: 30px;
+background-color: red;
+width: 100px;
+height: 40px;
+font-size: large;
+position: absolute;
+top: -10px;
+border: 0px;
+}
+.path{
+    color: white;
+    font-size: 60px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    left: 35%;
+    top: 230px;
+}
+#top{
+    color: white;
+    font-size: 25px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    top: 1790px;
+    left: 35%;
+}
+.line{
+    width: 965px;
+    height: 1px;
+    background-color: #fafcfb;
+    position: absolute;
+    top: 380px;
+    left: 15%;
+
+}
+#line{
+    width: 965px;
+    height: 1px;
+    background-color: #fafcfb;
+    position: absolute;
+    top: 1880px;
+    left: 15%;
+ 
+}
+.guide{
+    color: white;
+    font-size: 20px;
+    font-family:Bahnschrift Light;
+    position: absolute;
+    top: 330px;
+    left: 30%;
+}
+
+.cards{
+    display: flex;
+    align-items: center;   
+}
+.start{
+    background-color: rgb(61, 56, 56);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
+    left: 15%;
+}
+.starts{
+    background-color: rgb(61, 56, 56);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
+    left: 40%;
+}
+.startz{
+    background-color: rgb(61, 56, 56);
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 400px;
+    left: 65%;
+}
+.joy{
+    display: flex;
+}
+.love{
+     /* background-color: rgb(161, 17, 17);  */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 420px;
+    left: 67%;
+    border: 20px grey solid;
+
+}
+.why{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: 420px;
+   left: 42%;
+   border: 20px grey solid;
+}
+.who{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   position: absolute;
+   top: 420px;
+   left: 17%;
+   border: 20px grey solid;
+}
+#yellow{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+
+}
+ #blue{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+
+}
+#white{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+
+} 
+.begs{
+color: white;
+position: absolute;
+top: 270px;
+left: 28%;
+font-size: 30px;
+}
+.fik{
+color: white;
+position: absolute;
+top: 330px;
+left: 15%;
+font-size:20px ;
+}
+.more{
+color: white;
+background-color: red;
+width: 120px;
+height: 30px;
+border-radius: 20px;
+position: absolute;
+top: 420px;
+left: 28%;
+border: 0px;
+}
+.begs{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .fiks{
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .more{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 420px;
+    left: 28%;
+    border: 0px;
+    }
+
+/* second list cards */
+    .card{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .start_one{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 950px;
+        left: 15%;
+    }
+    .start_two{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 950px;
+        left: 40%;
+    }
+    .start_three{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 950px;
+        left: 65%;
+    }
+    .joys{
+        display: flex;
+    }
+    .loves{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 970px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .whys{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 970px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .whos{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 970px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #yellowz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #bluez{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #whitez{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .begsz{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .fiks{
+    color: white;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .more{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 420px;
+    left: 28%;
+    border: 0px;
+    }
+    .begs{
+        color: white;
+        position: absolute;
+        top: 270px;
+        left: 15%;
+        font-size: 30px;
+        }
+    /* second card copy */
+    .cardz{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .starta{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 1900px;
+        left: 15%;
+    }
+    .startb{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 1900px;
+        left: 40%;
+    }
+    .startc{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 1900px;
+        left: 65%;
+    }
+    .joyx{
+        display: flex;
+    }
+    .lovex{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 1920px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .whyx{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 1920px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .whox{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 1920px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #yellowx{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #bluex{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #whitex{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .begsz{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .fiksz{
+    color: white;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .more1{
+        color: white;
+        background-color:#ceb007;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .more2{
+        color: white;
+        background-color:#068399;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .more3{
+        color: white;
+        background-color:#069943;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreA{
+        color: white;
+        background-color: rgb(67, 167, 153);
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreB{
+        color: white;
+        background-color:#ceb007;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreC{
+        color: white;
+        background-color:#d31515;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreD{
+        color: white;
+        background-color: rgb(51, 127, 189);
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+   .moreE{
+        color: white;
+        background-color:#07a121;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreF{
+        color: white;
+        background-color:#2e82c7;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreG{
+        color: white;
+        background-color:#b8384d ;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreH{
+        color: white;
+        background-color:#185b99;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    .moreP{
+        color: white;
+        background-color:#6b0736;
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        position: absolute;
+        top: 430px;
+        left: 28%;
+        border: 0px;
+    }
+    /* forth card */
+    .cardzs{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .startas{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2450px;
+        left: 15%;
+    }
+    .startbs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2450px;
+        left: 40%;
+    }
+    .startcs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2450px;
+        left: 65%;
+    }
+    .joyxs{
+        display: flex;
+    }
+    .lovexs{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 2499px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .whyxs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2499px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .whoxs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2499px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #yellowxs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #bluexs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #whitexs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .begsz{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .fiksz{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .morez{
+    color: white;
+    background-color: green;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 500px;
+    left: 28%;
+    }
+    /* fifth card */
+    .cardzsz{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .startasz{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2980px;
+        left: 15%;
+    }
+    .startbsz{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2980px;
+        left: 40%;
+    }
+    .startcsz{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 2980px;
+        left: 65%;
+    }
+    .joyxsz{
+        display: flex;
+    }
+    .lovexsz{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 2999px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    
+    .whyxsz{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2999px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+     .whoxsz{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 2999px;
+       left: 17%;
+       border: 20px grey solid;
+    } 
+    #yellowxsz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #bluexsz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #whitexsz{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .begsz{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .fiksz{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .morez{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 500px;
+    left: 28%;
+    }
+    /* sixth card */
+    .cardzszs{
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    .startaszs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 3500px;
+        left: 15%;
+    }
+    .startbszs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 3500px;
+        left: 40%;
+    }
+    .startcszs{
+        background-color: rgb(61, 56, 56);
+        width: 300px;
+        height: 500px;
+        position: absolute;
+        top: 3500px;
+        left: 65%;
+    }
+    .joyxszs{
+        display: flex;
+    }
+    .lovexszs{
+         /* background-color: rgb(161, 17, 17);  */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 3530px;
+        left: 67%;
+        border: 20px grey solid;
+    
+    }
+    .whyxszs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 3530px;
+       left: 42%;
+       border: 20px grey solid;
+    }
+    .whoxszs{
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       position: absolute;
+       top: 3530px;
+       left: 17%;
+       border: 20px grey solid;
+    }
+    #yellowxszs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top:-70px;
+        left: 20%;
+    
+    }
+     #bluexszs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    }
+    #whitexszs{
+        font-size: 100px;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    
+    } 
+    .begsz{
+    color: white;
+    position: absolute;
+    top: 270px;
+    left: 28%;
+    font-size: 30px;
+    }
+    .fiksz{
+    color: white;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    font-size:20px ;
+    }
+    .morez{
+    color: white;
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 420px;
+    left: 28%;
+    }
+    /* fourth div */
+    .fourth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(8, 8, 8);
+        width: 100%;
+        height: 350px;
+
+        
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:none;
+        margin-right: 580px;
+        margin-left: 490px;
+        margin-top: 20px;
+        
+    }
+    .pp{
+        display: flex;
+        flex-direction: row;
+        margin-right: 1020px;
+        
+    }
+    .pp1{
+        display: flex;
+        flex-direction: row;
+        margin-right: 950px;
+    }
+    .FRONT1{
+        color: white;
+        font-size: 30px;
+        font-family:Bahnschrift Light;
+        position: absolute;
+        top: 4200px;
+        left: 4%;
+    }
+    .MASTER1{
+    color: rgb(247, 3, 3);
+    font-size: 60px;
+    font-family:Brush Script MT ;
+    position: absolute;
+    top: 4153px;
+    left:13%;
+    
+    }
+    .link1{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 4210px;
+    left: 28%;
+    }
+    .link1 li {
+    color: white;
+    text-decoration: none;
+    }
+    .link1 li a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        
+        }
+        .link1 li a :hover{
+            font-size: large;
+        }
+        .hhh{
+            width: 250px;
+            height: 150px;
+            justify-content: center;
+            margin-left: 540px;
+        }
+        .google{
+            width: 95px;
+            height: 45px;
+          margin-left: 8px;
+           
+        }
+        .twitter{
+            width: 30px;
+            height: 30px;
+         margin-left:8px;
+            
+        }
+        .linkedin{
+            width: 30px;
+            height: 30px;
+           margin-left: 8px;
+        }
+        .instagram{
+            width: 30px;
+            height: 30px;
+            margin-left:8px;
+        }
+        .top{
+            width: 260px;
+            height: 250px;
+            top: 1500px;
+            position:absolute;
+            left:550px;
+        }
+        .made{
+       color: lightgray;
+       position: absolute;
+       top: 4400px;
+       left: 3%;
+        }
+        .mn{
+            color: lightgray;
+            position: absolute;
+            top: 4400px;
+            left: 67%;
+            
+        }
+        .support{
+       color: rgb(231, 41, 7);
+       position: absolute;
+       top: 4360px;
+       left: 68%;
